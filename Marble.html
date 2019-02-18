@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang ="en">
 	<head>
-		<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Marble</title>
     <link rel="stylesheet" href="Marble.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	</head>
 	  <body>
-      <header>
+      <header class="container">
           <div class="logo">
-            <span>marble</span>
+              <a href="#">marble</a>
           </div>
             <div class="menu">
               <a href="#home">home</a>
@@ -21,6 +21,24 @@
               <a href="#contact">contact</a>
             </div>
       </header>
+
+      <!-- Burger menu -->
+      <div class="wrapper">
+        <input type="checkbox" id="check-menu">
+        <label for="check-menu"></label>
+        <div class="burger-line first"></div>
+        <div class="burger-line second"></div>
+        <div class="burger-line third"></div>
+        <div class="burger-line fourth"></div>
+        <nav class="main-menu">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#journal">journal</a>
+            <a href="#service">service</a>
+            <a href="#features">features</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </div>
       <main>
                           <!-- home -->
       <section id="home">
@@ -28,8 +46,9 @@
         <h2>We love to turn great ideas into beautiful projects</h2>
         <div class="see_portfolio"><a href="#">see portfolio</a></div>
       </section>
+
                         <!-- second section -->
-      <section class="icons">
+      <section class="icons container">
         <div class="icons--container">
           <div class="icons--wrapper">
             <div class="icons--wrapper__img">
@@ -64,10 +83,9 @@
                        incididunt ut labore</div>
               </div>
             </div>
-        <div class="line"></div>
       </section>
                               <!-- Our latest works  -->
-      <section class="works">
+      <section class="works container">
         <div class="works--title">our latest works</div>
         <div class="works-container">
           <div class="works-wrapper">
@@ -98,7 +116,7 @@
                           <!-- footer -->
 
       <footer>
-        <div class="footer-container">
+        <div class="footer-container container">
           <div class="footer-item getIntouch">
             <div class="container-title">get in touch</div>
             <div class="getIntouch-content wrap">Lor em ips um dolor sit amet, conse ctetur adipi scing elit, sed do eiusmod tem por ctetur</div>
@@ -158,8 +176,8 @@
                 <div class="posts-wrapper wrap">Lor em ips um dolor sit amet, conse ctetur adipi scing elit Lor em ips um dolor sit amet, conse ctetur</div>
             </div>
       </div>
-        <div class="line2"></div>
-        <div class="copyright">&copy;2013 Marbie. All rights reserved. Theme by elemis.</div>
+      <div class="line2"></div>
+        <div class="copyright container">&copy;2013 Marbie. All rights reserved. Theme by elemis.</div>
       </footer>
     </main>
   </body>
